@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#777;
+    --blueboi: #162938
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+
+
+.nav ul{
+    margin:0;
+
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    
+}
+.header{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:200px;
+    right: 0px;
+    overflow:hidden;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.site-name {
+    text-align: center;
+    margin:0;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color:white;
+}
+
+.site-name-large {
+    font-size: 9em;
+
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255, .3);
+    cursor: pointer;
+}
+.main-header{
+    background-image: url(background_img_fractal.jpg);
+    background-size: cover;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+
+}
+
+
+.article{
+    margin: 1em;
+
+}
+
+.container{
+max-width: 900px;
+margin: 0 auto;
+padding: 0 1.5em;
+}
+
+.article-name{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+    color: var(--blueboi);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+img.image{
+display:block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+padding:3px;
+background-color: silver;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+border-radius: 10px;
+}
+
+.video{
+    width:100%;
+    height:100%;
+    display: block;
+    border-radius: 1em;
+}
+
+.main-footer {
+    background-color: var(--blueboi);
+    color: white;
+    padding: .25em 0;
+
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align:end;
+
+}
+
+.footer-nav li{
+    padding: 0 .5em
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
