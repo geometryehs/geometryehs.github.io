@@ -124,6 +124,17 @@ border-radius: 10px;
     border-radius: 2em;
 }
 
+.ixl:hover{
+    width: 6%;
+    height:6%;
+    display:block;
+    border-radius: 2em;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    opacity: .5;
+    
+}
+
 .main-footer {
     background-color: var(--blueboi);
     color: white;
