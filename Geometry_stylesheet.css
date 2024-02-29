@@ -135,6 +135,22 @@ border-radius: 10px;
     
 }
 
+.desmos{
+    width:5%;
+    height:5%;
+    display: block;
+    border-radius: 2em;
+}
+
+.desmos:hover{
+    width: 6%;
+    height:6%;
+    display:block;
+    border-radius: 2em;
+    background-blend-mode: multiply;
+    opacity: .5;
+}
+
 .main-footer {
     background-color: var(--blueboi);
     color: white;
